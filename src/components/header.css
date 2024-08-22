@@ -1,0 +1,12 @@
+.logo {
+  width: 200px;
+  height: auto;
+}
+header {
+  height: 90px;
+  background: transparent;
+  padding: 8px;
+
+  display: flex;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.666);
+}

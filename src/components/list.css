@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  column-gap: 20px;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.active {
+  background: yellow !important;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  gap: 26px;
+  padding: 16px;
+}
+.page-number {
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.btn-paginado {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background: transparent;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    justify-content: center;
+  }
+  .pagination {
+    gap: 8px;
+  }
+}
